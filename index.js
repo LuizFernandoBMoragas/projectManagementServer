@@ -14,5 +14,5 @@ app.delete("/delete:id", (req, re) => {});
 const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
-  // console.log(`Yeah, our server is running in ${port} port!`);
+  console.log(`Yeah, our server is running in ${port} port!`);
 });
